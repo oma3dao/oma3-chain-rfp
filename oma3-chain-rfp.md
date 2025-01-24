@@ -18,9 +18,10 @@ General goals:
 Usability:  the user interface should make it as easy as possible for users to bridge tokens between OMA3’s infrastructure, Ethereum, and other chains used by OMA3 members (see below).
   * Decentralized operations:  centralization (e.g.- sequencers, RFC nodes, client stacks) introduces operational risk as a single point of failure can bring down the network.
   * Decentralized governance:  centralization also cedes control to entities that OMA3 cannot control.  Any centralization of governance (if any) should be under the control of OMA3. 
-  * Multichain interoperability:  OMA3 members already have applications deployed across a wide variety of EVM (Ethereum, Polygon, etc.) and non-EVM (EOS, Wax, Chromia, etc.) chains.  OMA3’s infrastructure should have a clear path to interoperability with all chains utilized by OMA3 members.
+  * Multichain interoperability:  OMA3 members already have applications deployed across a wide variety of EVM (Ethereum, Polygon, etc.) and non-EVM (EOS, Wax, Chromia, etc.) chains.  OMA3’s infrastructure should have a clear path to interoperability with all chains utilized by OMA3 members. bridges…
   * RPC API flexibility:  the chain architecture should allow OMA3 to define REST and GraphQL style APIs to augment the native transaction API of the chain client (e.g.- Ethereum RPC).
   * Performance guarantees:  If the chain is a public chain that allows permissionless deployment of smart contracts, the chain should give OMA3’s smart contacts the ability to guarantee its performance to users, so that other smart contracts on the chain do not interfere with the performance of OMA3’s infrastructure.  This could be solutions such as guaranteed blockspace or load balancing between shards or chains.
+  * Development environment:  The chain should utilize a development environment that is reasonably accepted by Web3 developers such as EVM, Cosmos SDK, SVM, or Move VM.
   * Ethereum alignment:  The chain should leverage Ethereum security in some manner, such as through data availability (e.g.- Eigen DA) or state root settlement.
 
 Goals specific to an existing chain: 
