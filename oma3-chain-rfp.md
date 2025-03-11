@@ -46,8 +46,7 @@ OMA3 requests organizations submit the following information in response to this
 
 ## Timeline
 
-  * Companies submit proposals to OMA3:  February 1, 2024
-  * Decision on infrastructure partner(s):  March 6, 2024
+TBD
 
 ## Contact Information
 
